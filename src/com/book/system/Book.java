@@ -23,6 +23,7 @@ import javax.jdo.annotations.PrimaryKey;
 /**
  * Defines a book
  */
+
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class Book {
 	@PrimaryKey
